@@ -6,6 +6,8 @@ Before breaking your Raspbian installation you should back up your files. If you
 
 + Configuration files for Raspbian and for applications are also stored in your home directory. Change the colour of your desktop. 
 
++ Create a text file. 
+
 + Open the File Explorer. 
 
 + Insert a USB drive and open it in the File Explorer. If you accidentally close the File Explorer for the USB drive you can open it from its icon on the desktop. 

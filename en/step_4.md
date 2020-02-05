@@ -12,7 +12,7 @@ Raspbian uses the LXDE desktop environment to provide features such as the task 
 + Type the command
 
 ~~~
-which lxdepanel
+which lxpanel
 ~~~
 
 The output tells you where the lxdpanel executable file can be found. 
@@ -26,10 +26,10 @@ cd /usr/bin
 + The unix command for deleting a file is 'rm'. You can try deleting the file:
 
 ~~~
-rm lxdepanel
+rm lxpanel
 ~~~
 
-but you won't be able to do it as the 'pi' user. 
+but you won't be able to do it as the 'pi' user because you don't have permission. This makes it harder to accidentally delete something important. 
 
 + Run the same command as a superuser:
 
@@ -40,7 +40,7 @@ sudo rm lxdepanel
 + Type the command
 
 ~~~
-which lxdepanel
+which lxpanel
 ~~~
 
 and you will see that the lxdepanel file has gone. 

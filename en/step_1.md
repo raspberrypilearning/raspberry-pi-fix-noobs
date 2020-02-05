@@ -1,5 +1,5 @@
 ## Introduction
-Raspbian is the operating system for the Raspberry Pi computer. If you install Raspbian with NOOBS then you will have a way to recover a working system if something goes wrong. The Raspberry Pi computer is designed for trying things out and learning about computing. You are encouraged to make changes to your computer. Sometimes you might accidentally break an important part of the setup. That's okay. As long as you make sure that you always back up important work, you'll be able to quickly get back to a working system.
+Raspbian is the operating system for the Raspberry Pi computer. If you install Raspbian with NOOBS then you will have a way to recover a working system if something goes wrong. The Raspberry Pi computer is designed for trying things out and learning about computing. You are encouraged to make changes to your Raspberry Pi. Sometimes you might accidentally break an important part of the setup. That's okay. As long as you make sure that you always back up important work, you'll be able to quickly get back to a working system.
 
 In this project you'll learn how deliberately break your installation of Raspbian and then get back to a working system. If you work through this project then you'll be prepared if you accidentally break your Raspbian installation in future and you'll also learn more about how Raspbian and NOOBS work.
 
