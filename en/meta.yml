@@ -1,6 +1,6 @@
-title: Break and Fix Your Raspbian Installation with NOOBS
+title: Break and reinstall Raspbian with the Raspberry Pi Imager
 hero_image: images/banner.png
-description: Learn how to recover a working installation of Raspbian when something goes wrong. 
+description: Learn how to reinstall a fresh, working install of Raspbian when something goes wrong. 
 version: 4
 listed: false
 copyedit: false

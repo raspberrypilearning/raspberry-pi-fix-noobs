@@ -1,6 +1,8 @@
-## Installing NOOBS
+## Installing Raspbian using the Raspberry Pi Imager
 
-To complete this project you'll need an installation of NOOBS. NOOBS stands for New Out Of the Box Software and is an easy operating system installer for beginners. NOOBs allows you to just copy a zip file onto an SD Card and put it into a Raspberry Pi to get up and running. NOOBs stores files on the SDCard so it can restore your operating system if things go wrong. 
+To complete this project you'll need an installation of Raspbian using the Raspberry Pi Imager. The Raspberry Pi Imager is a free [download](https://www.raspberrypi.org/downloads/){:target="_blank"} from the Raspberry Pi Foundation that you can install on a Windows, Mac or Ubuntu computer and use to easily install Raspbian onto an SD card. Once you have the Raspberry Pi Imager installed, making a fresh install of Raspbian is a piece of cake.
+
+NOOBS stands for New Out Of the Box Software and is an easy operating system installer for beginners. NOOBs allows you to just copy a zip file onto an SD Card and put it into a Raspberry Pi to get up and running. NOOBs stores files on the SDCard so it can restore your operating system if things go wrong. 
 
 If you already have a micro SD Card with NOOBs that you are willing to break then you can continue to the next step. 
 
