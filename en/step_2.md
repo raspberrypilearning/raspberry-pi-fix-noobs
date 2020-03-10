@@ -2,22 +2,49 @@
 
 To complete this project you'll need an installation of Raspbian using the Raspberry Pi Imager. The Raspberry Pi Imager is a free [download](https://www.raspberrypi.org/downloads/){:target="_blank"} from the Raspberry Pi Foundation that you can install on a Windows, Mac or Ubuntu computer and use to easily install Raspbian onto an SD card. Once you have the Raspberry Pi Imager installed, making a fresh install of Raspbian is a piece of cake.
 
-NOOBS stands for New Out Of the Box Software and is an easy operating system installer for beginners. NOOBs allows you to just copy a zip file onto an SD Card and put it into a Raspberry Pi to get up and running. NOOBs stores files on the SDCard so it can restore your operating system if things go wrong. 
+### Download and launch the Raspberry Pi Imager
 
-If you already have a micro SD Card with NOOBs that you are willing to break then you can continue to the next step. 
++ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
++ Click on the link for the Raspberry Pi Imager that matches your operating system.
 
-For this project we recommend using NOOBs lite because you can choose a smaller desktop installation of Raspbian which will be faster to install and restore. When you're finished with this project then you can install Raspbian Full with all the recommended applications. 
+![Downloads page](images/newInstaller_downloadsPage.png)
 
-+ Download NOOBS Lite from [NOOBS](https://www.raspberrypi.org/downloads/noobs/) and copy it to an empty SD Card. 
++ When the download finishes, click on it to launch the installer.
 
-Choose the *Raspbian* option. Don't choose Raspbian Full at this stage as it will take longer to download and install. Don't choose Raspbian Lite as this does not have the graphical desktop environment. 
+![Launch installer](images/newInstaller_launchInstaller.png)
 
-You can find more detailed instructions for installing NOOBS below, but we recommend using NOOBS Lite with the Raspbian install option for this project. Choosing NOOBS or Full Raspbian will work but the download and install steps will take longer. 
+### Using the Raspberry Pi Imager
 
-[[[noobs-install]]]
+All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
 
-+ After installation you will enter the Raspbian desktop and begin configuration. You will have the option to update your installation. This is not necessary for this project so choose the Skip option to save time. 
+When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message: 
 
+![Windows warning](images/newInstaller_windowsWarning.png)
 
++ If you get this, click on `More info` and then `Run anyway`.
 
++ Insert your SD card into the computer or laptop’s SD card slot.
 
++ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Raspbian, is the recommended OS.
+
+![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
+
++ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem. 
+
+**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+
+![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+
+Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
+
+![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+
++ Then simply click the `WRITE` button.
+
++ Wait for the Raspberry Pi Imager to finsh writing.
+
++ Once you get the following message, you can eject your SD card.
+
+![Write successful message](images/newInstaller_writeSuccessful.png)
+
+You can now insert the SD card into your Raspberry Pi and boot straight into Raspbian. On the first boot, Raspbian will walk you through some basic setup customisation for your Pi.
