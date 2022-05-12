@@ -1,0 +1,11 @@
+title: Break and reinstall Raspbian with the Raspberry Pi Imager
+hero_image: images/banner.png
+description: Learn how to reinstall a fresh, working install of Raspbian when something goes wrong. 
+version: 4
+listed: false
+copyedit: false
+last_tested: "2020-01-29"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
